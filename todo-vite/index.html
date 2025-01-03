@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>To-Do-App</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="todo-app">
-        <h1>Meine To-Do-Liste</h1>
-        <form class="todo-form" id="todo-form" action="">
-            <input class="todo-input" id="todo-input" type="text" aria-label="Neue Aufgabe hinzufügen" placeholder="Neue Aufgabe">
-            <button class="todo-btn" id="todo-btn" type="submit" aria-label="Hinzufügen Button">Hinzufügen</button>
-        </form>
-        <ul class="todo-list" id="todo-list">
-            
-        </ul>
-        <div class="todo-info" id="todo-info"></div>
+      <h1>Meine To-Do-Liste</h1>
+      <form class="todo-form" id="todo-form" action="">
+        <input
+          class="todo-input"
+          id="todo-input"
+          type="text"
+          aria-label="Neue Aufgabe hinzufügen"
+          placeholder="Neue Aufgabe"
+        />
+        <button
+          class="todo-btn"
+          id="todo-btn"
+          type="submit"
+          aria-label="Hinzufügen Button"
+        >
+          Hinzufügen
+        </button>
+      </form>
+      <ul class="todo-list" id="todo-list"></ul>
+      <div class="todo-info" id="todo-info"></div>
     </div>
     <script src="todo-script.js" defer></script>
-</body>
+  </body>
 </html>
